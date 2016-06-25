@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Hangman</string>
+    <string name="category">CATEGORY</string>
+    <string name="hint">HINT</string>
+    <string name="win">YOU WON!</string>
+    <string name="lost">YOU LOST :(</string>
+    <string name="next_phrase">NEXT PHRASE</string>
+    <string name="new_game">New Game</string>
+    <string name="exit_game">EXIT</string>
+    <string name="_continue">CONTINUE</string>
+</resources>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View android:id="@+id/fakeView"
+            android:layout_width="2dp"
+            android:layout_height="2dp"
+            android:background="#000"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"/>
+
+        <ImageView
+            android:id="@+id/hangmanImg"
+            android:layout_width="@dimen/hangman_img_size"
+            android:layout_height="@dimen/hangman_img_size"
+            android:layout_alignRight="@+id/fakeView"
+            android:src="@drawable/hangman0"
+            android:layout_alignTop="@+id/fakeView"
+            android:layout_alignParentLeft="true"
+            android:background="#F00"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:id="@+id/category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/fakeView"
+            android:layout_alignParentRight="true"
+            android:text="@string/category"
+            android:gravity="center_horizontal"
+            android:layout_alignTop="@+id/fakeView"
+            android:background="#FFA500"
+            android:textColor="#FFF"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textSize="@dimen/category_text_size" />
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/category"
+            android:layout_alignLeft="@+id/fakeView"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="0/0"
+            android:textSize="@dimen/score_text_size"/>
+
+        <Button
+            android:id="@+id/hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/score"
+            android:layout_alignLeft="@+id/fakeView"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/button_hint_disabled"
+            android:textColor="#FFF"
+            android:clickable="false"
+            android:text="@string/hint"
+            android:textSize="@dimen/hint_text_size"/>
+
+    </RelativeLayout>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text=""
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/phrase_text_size"
+        android:id="@+id/phrase"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#DDD"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/win"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#009933"
+            android:textSize="@dimen/result_text_size"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/next_phrase"
+            android:id="@+id/nextPhrase"
+            android:textColor="#FFF"
+            android:background="@drawable/button_next_word"
+            android:textSize="@dimen/next_text_size"/>
+    </LinearLayout>
+</LinearLayout>

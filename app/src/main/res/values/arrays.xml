@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="words">
+        <item>Spain</item>
+        <item>Poland</item>
+        <item>Italy</item>
+        <item>France</item>
+        <item>Germany</item>
+        <item>Russia</item>
+        <item>Norway</item>
+        <item>Sweden</item>
+        <item>Ukraine</item>
+        <item>Belgium</item>
+        <item>Taxi Driver</item>
+        <item>The Godfather</item>
+        <item>The Shawshank Redemption</item>
+        <item>Gone with the Wind</item>
+        <item>Forrest Gump</item>
+        <item>Star Wars</item>
+        <item>The Silence of the Lambs</item>
+        <item>Harrison Ford</item>
+        <item>Will Smith</item>
+        <item>Clint Eastwood</item>
+        <item>AC Milan</item>
+        <item>Juventus</item>
+        <item>Liverpool</item>
+        <item>Arsenal</item>
+        <item>Chelsea</item>
+        <item>Manchester City</item>
+        <item>Bayern Munich</item>
+        <item>Manchester United</item>
+        <item>Barcelona</item>
+        <item>Real Madrid</item>
+        <item>chips</item>
+        <item>chicken</item>
+        <item>fish</item>
+        <item>pancake</item>
+        <item>strawberrys</item>
+        <item>hamburger</item>
+        <item>cookies</item>
+        <item>salad</item>
+        <item>bread</item>
+        <item>honey</item>
+    </string-array>
+
+    <string-array name="categories">
+        <item>GEOGRAPHY</item>
+        <item>GEOGRAPHY</item>
+        <item>GEOGRAPHY</item>
+        <item>GEOGRAPHY</item>
+        <item>GEOGRAPHY</item>
+        <item>GEOGRAPHY</item>
+        <item>GEOGRAPHY</item>
+        <item>GEOGRAPHY</item>
+        <item>GEOGRAPHY</item>
+        <item>GEOGRAPHY</item>
+        <item>CINEMA</item>
+        <item>CINEMA</item>
+        <item>CINEMA</item>
+        <item>CINEMA</item>
+        <item>CINEMA</item>
+        <item>CINEMA</item>
+        <item>CINEMA</item>
+        <item>CINEMA</item>
+        <item>CINEMA</item>
+        <item>CINEMA</item>
+        <item>CINEMA</item>
+        <item>SPORT</item>
+        <item>SPORT</item>
+        <item>SPORT</item>
+        <item>SPORT</item>
+        <item>SPORT</item>
+        <item>SPORT</item>
+        <item>SPORT</item>
+        <item>SPORT</item>
+        <item>SPORT</item>
+        <item>SPORT</item>
+        <item>FOOD</item>
+        <item>FOOD</item>
+        <item>FOOD</item>
+        <item>FOOD</item>
+        <item>FOOD</item>
+        <item>FOOD</item>
+        <item>FOOD</item>
+        <item>FOOD</item>
+        <item>FOOD</item>
+        <item>FOOD</item>
+    </string-array>
+</resources>
